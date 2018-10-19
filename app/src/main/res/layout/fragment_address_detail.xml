@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:layout_weight="1"
+            android:padding="6dp"
+            android:text="Sign Up"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/houseNo"
+                android:hint="House No"
+                android:gravity="center"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/streetName"
+                android:hint="Street Name"
+                android:gravity="center"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/landMark"
+                android:hint="Land Mark"
+                android:gravity="center"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/city"
+                android:gravity="center"
+                android:hint="City"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/distinct"
+                android:gravity="center"
+                android:hint="Distinct"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/state"
+                android:gravity="center"
+                android:hint="State"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/country"
+                android:hint="Country"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pinNo."
+                android:gravity="center"
+                android:hint="Pin No"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
